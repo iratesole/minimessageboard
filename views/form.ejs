@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><%= title %></title>
+</head>
+<body>
+    <h1>Create a New Message</h1>
+
+    <form method = "POST" action="/new">
+        <div>
+            <label for="user">Your Name:</label>
+            <input type="text" id="user" name="messageUser" required> 
+        </div>
+        <br>
+        <div>
+            <label for="text"> Message Text :</label>
+            <input type="text" id="text" name="messageText" required>
+        </div>
+        <br>
+        <button type="submit"> Submit Message </button>
+    </form>
+    <br>
+    <a href="/">Back to Home</a>
+</body>
+</html>

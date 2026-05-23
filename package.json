@@ -1,0 +1,13 @@
+{
+  "name" : "minimessageboard",
+  "version" : "1.0.0",
+  "scripts" : {
+    "start" : "node app.js",
+    "dev" : "node --watch app.js"
+  },
+  "dependencies": {
+    "ejs": "^5.0.2",
+    "express": "^5.2.1"
+  }
+}
+

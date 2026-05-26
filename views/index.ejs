@@ -9,13 +9,13 @@
         <hr>
           
         <ul>
-            <% messages.forEach((msg,index) => { %>
+            <% messages.forEach((msg) => { %>
                 <li>
-                    <strong><%= msg.user %> : </strong> "<%= msg.text %>"
+                    <strong><%= msg.username%> : </strong> "<%= msg.text %>"
                     <br>
                     <small><%= msg.added.toLocaleString() %></small>
                     <br>
-                    <a href="/message/<%= index %>"> Open</a>"
+                    <a href="/message/<%= msg.id %>"> Open</a>
                 </li>
                 <br>
             <% }) %>
